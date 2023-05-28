@@ -2,8 +2,8 @@
 ## Login screen
 ### imports for navigator
 
-npm install @react-navigation/native @react-navigation/native-stack
-npm install react-native-screens react-native-safe-area-context
+### npm install @react-navigation/native @react-navigation/native-stack
+### npm install react-native-screens react-native-safe-area-context
 
 Note: You might get warnings related to peer dependencies after installation. They are usually caused by incorrect version ranges specified in some packages. You can safely ignore most warnings as long as your app builds.
 
@@ -28,8 +28,8 @@ public class MainActivity extends ReactActivity {
 
 and make sure to add the following import statement at the top of this file below your package statement:
 
-import android.os.Bundle;
+### import android.os.Bundle;
 
 This change is required to avoid crashes related to View state being not persisted consistently across Activity restarts.
 
-###npx react-native run-android
+### npx react-native run-android
