@@ -1,4 +1,4 @@
-# react-native bootcamp
+# react-native 
 ## Login screen
 ### imports for navigator
 
