@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Caprasimo-Regular.ttf",
+      "sha1": "69635154ccd4f68233cdc59173d6d32de5241d56"
+    },
+    {
+      "path": "assets/fonts/Courgette-Regular.ttf",
+      "sha1": "0e6826b92f8f80fe2eb803bdef7d81355845e283"
+    }
+  ]
+}
