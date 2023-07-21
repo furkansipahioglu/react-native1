@@ -1,35 +1,66 @@
-# react-native 
-## Login screen
-### imports for navigator
+# Restaurant Menu Project
 
-### npm install @react-navigation/native @react-navigation/native-stack
-### npm install react-native-screens react-native-safe-area-context
+#### Use Case Scenario:
+You may choose a category from the menu and add items to your shopping cart. Upon clicking 'checkout,' you will be able to view the total amount of your order.
 
-Note: You might get warnings related to peer dependencies after installation. They are usually caused by incorrect version ranges specified in some packages. You can safely ignore most warnings as long as your app builds.
+#### Explanation:
+This is a React Native project that is centered around developing a mobile application which is about restaurant menu and shopping system clone. It allows users to perform CRUD operations via REST API. The application's front-end has been customized and designed by myself, excluding the images and icons.
 
-From React Native 0.60 and higher, linking is automatic. So you don't need to run react-native link.
+The key functionality of the application enables users to interact with a menu to select various categories. Once a category is chosen, users can add items from that category into their shopping cart. Upon selecting the 'checkout' option, the application displays the total amount of the user's orders.
 
-If you're on a Mac and developing for iOS, you need to install the pods (via Cocoapods) to complete the linking.
+This mobile application aims to provide a user-friendly experience for managing shopping activities, allowing users to easily browse through categories, add items to their cart, and review their order total before proceeding to checkout. The backend functionality is powered by the REST API, which handles Create, Read, Update, and Delete (CRUD) operations, ensuring seamless communication between the front-end and the server.
 
-npx pod-install ios
 
-react-native-screens package requires one additional configuration step to properly work on Android devices. Edit MainActivity.java file which is located in android/app/src/main/java/<your package name>/MainActivity.java.
 
-Add the highlighted code to the body of MainActivity class:
+## Imported Packages and Setup
 
-public class MainActivity extends ReactActivity {
-  // ...
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(null);
-  }
-  // ...
-}
+Bu projeyi dağıtmak için çalıştırın
 
-and make sure to add the following import statement at the top of this file below your package statement:
+#### Setting up the Project
+-- Node packages sdk11 and android should be installed
 
-### import android.os.Bundle;
+```bash
+ npx react-native@latest init AwesomeProject
+```
 
-This change is required to avoid crashes related to View state being not persisted consistently across Activity restarts.
+```bash
+ npx react-native run android
+```
 
-### npx react-native run-android
+#### React Navigation
+```bash
+  npm install @react-navigation/native @react-navigation/native-stack
+```
+```bash
+  npm install react-native-screens react-native-safe-area-context
+```
+```bash
+  npm i react-native-vector-icons
+```
+
+
+
+For icons
+```bash
+  npm i react-native-vector-icons
+```
+Gradient Package
+```bash
+npm i react-native-linear-gradient
+```
+
+note:Filename was originally AwesomeProject not Restaurant-Project so you can change the file name
+
+
+
+
+
+#### Note:
+
+ File name was AwesomeProject not Restaurant-Project so you can change it if you want to run
+
+
+  
+## Login screen component
+
+Just an example component with some validation and styling
