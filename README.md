@@ -57,7 +57,8 @@ note:Filename was originally AwesomeProject not Restaurant-Project so you can ch
 
 #### Note:
 
- File name was AwesomeProject not Restaurant-Project so you can change it if you want to run
+ File name was AwesomeProject not Restaurant-Project so you can change it if you want to run.
+ Assets will be organized 
 
 
   
